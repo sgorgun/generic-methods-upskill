@@ -5,7 +5,7 @@
 * Implement generic methods of the class [ArrayExtension](GenericMethods/ArrayExtension.cs).
 * Implement the [GetIeee754Format.Transform](DoubleTransformer/GetIeee754Format.cs#L16) method that results a binary representation of a real double-precision number in IEEE 754 format. Don't use Framework's converter classes. The task definition is given in the  XML-comments for this method.        
     Hint:  Use C# structs to create a union type (similar to C unions).     
-* Implement an [IntegerPredicate/ContainsDigitPredicate.IsMatch](IntegerPredicate/ContainsDigitPredicate.cs#L25) method that checks if a given number contains a given digit. Don't use strings and arrays.      
+* Implement an [ContainsDigitPredicate.IsMatch](IntegerPredicate/ContainsDigitPredicate.cs#L25) method that checks if a given number contains a given digit. Don't use strings and arrays.      
 
 The detailed explanations of the task are provided in the XML-comments for the methods and in test cases of unit tests.
 

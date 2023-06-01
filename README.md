@@ -1,92 +1,37 @@
-# generic-methods-upskill
+# Generics Methods
 
+Intermediate level task for practice generic methods and interfaces. 
 
+Estimated time to complete the task - 1.5h.  
 
-## Getting started
+The task requires .NET 6 SDK installed.   
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+## Task Description
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+* Implement generic methods of the class [ArrayExtension](GenericMethods/ArrayExtension.cs).
+* Put a solution of the **IEEE 754 format** task into [DoubleExtension](IEEE754FormatTask/DoubleExtension.cs#L13) class.
+    <details><summary>IEEE 754 format.</summary>        
+    Implement the GetIEEE754Format method that obtains a binary representation of a real double-precision number in IEEE 754 format as the extension method. Don't use Framework's converter classes. The task definition is given in the  XML-comments for this method.        
+    
+    Hint:  Use C# structs to create a union type (similar to C unions).
+    </details>      
+* Put a solution of the **Contains Digit Validator** task into the [ContainsDigitValidator](ContainsDigitPredicate/ContainsDigitValidator.cs#L3) class.
+    <details><summary>Contains Digit Validator.</summary>    
+    Implement an Verify method that checks if a given number contains a given digit. Don't use strings and arrays.      
+    </details>
+* Put into the [Adapters](Adapters/) project the [GetIEEE754FormatAdapter](Adapters/GetIEEE754FormatAdapter.cs#L5) adapter class for [DoubleExtension](IEEE754FormatTask/DoubleExtension.cs#L13) that implement the required interfaces.
+* Put into the [Adapters](Adapters/) project the [ContainsDigitPredicateAdapter](Adapters/ContainsDigitPredicateAdapter.cs#L6) adapter class for [ContainsDigitValidator](ContainsDigitPredicate/ContainsDigitValidator.cs#L3) that implement the required interfaces. 
 
-## Add your files
+The detailed explanations of the task are provided in the XML-comments for the methods and in test cases of unit tests.
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+## Additional Materials
 
-```
-cd existing_repo
-git remote add origin https://gitlab.com/epam-autocode-tasks/csharp-intermediate/generic-methods-upskill.git
-git branch -M main
-git push -uf origin main
-```
+Feel welcome to check out a set of supplementary articles from C# Programming Guide: 
 
-## Integrate with your tools
+- [C# extension methods](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/extension-methods)  
+- [Math.Abs method](https://docs.microsoft.com/en-us/dotnet/api/system.math.abs?view=net-5.0) 
 
-- [ ] [Set up project integrations](https://gitlab.com/epam-autocode-tasks/csharp-intermediate/generic-methods-upskill/-/settings/integrations)
+### C# reference  
 
-## Collaborate with your team
-
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
-
-## Test and Deploy
-
-Use the built-in continuous integration in GitLab.
-
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
-
-***
-
-# Editing this README
-
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+* [ArgumentNullException class](https://docs.microsoft.com/en-us/dotnet/api/system.argumentnullexception?view=net-5.0#:~:text=An%20ArgumentNullException%20exception%20is%20thrown,but%20should%20never%20be%20null%20.&text=An%20object%20returned%20from%20a,original%20returned%20object%20is%20null%20.) 
+* [ArgumentException class](https://docs.microsoft.com/en-us/dotnet/api/system.argumentexception?view=net-5.0)

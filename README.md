@@ -3,9 +3,9 @@
 ## Task Description
 
 * Implement generic methods of the class [ArrayExtension](GenericMethods/ArrayExtension.cs).
-* Put a solution of the **IEEE 754 format** task into [DoubleExtension](IEEE754FormatTask/DoubleExtension.cs#L13) class.
+* Put a solution of the **IEEE 754 format** task into [DoubleTransformer](DoubleTransformer/GetIeee754Format.cs#L9) class.
     <details><summary>IEEE 754 format.</summary>        
-    Implement the GetIEEE754Format method that obtains a binary representation of a real double-precision number in IEEE 754 format as the extension method. Don't use Framework's converter classes. The task definition is given in the  XML-comments for this method.        
+    Implement the GetIEEE754Format method that gets a binary representation of a real double-precision number in IEEE 754 format. Don't use Framework's converter classes. The task definition is given in the  XML-comments for this method.        
     
     Hint:  Use C# structs to create a union type (similar to C unions).
     </details>      

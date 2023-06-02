@@ -2,8 +2,8 @@
  
 ## Task Description
 
-* Implement the generic methods of the class [GenericMethods.ArrayExtension](GenericMethods/ArrayExtension.cs#L10).
-* To test generic methods that was implemented in the class `ArrayExtension` do the following :
+* Implement the generic methods of the [GenericMethods.ArrayExtension](GenericMethods/ArrayExtension.cs#L10) class.
+* To test generic methods that was implemented do the following :
     *   to check [Transform](GenericMethods/ArrayExtension.cs#L36) generic method implement the [GetIeee754Format.Transform](DoubleTransformer/GetIeee754Format.cs#L16) method that results a binary representation of a real double-precision number in IEEE 754 format. **Don't use Framework's converter classes**.     
     _The detailed explanations of the task are provided in the XML-comments for the methods and in [test cases](GenericMethods.Tests/NUnitTests/ArrayExtensionTests.cs#L37) of unit tests_       
     _Hint:  Use C# structs to create a union type (similar to C unions)._     

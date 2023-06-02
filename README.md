@@ -16,4 +16,5 @@ _The detailed explanations of the task are provided in the XML-comments for the 
 ## Additional Materials
 - [IEEE 754](https://www.wikiwand.com/en/IEEE_754) 
 - [Math.Abs method](https://docs.microsoft.com/en-us/dotnet/api/system.math.abs) 
+- [IComparer<T> Interface](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.icomparer-1)
 

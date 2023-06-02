@@ -3,12 +3,11 @@
 ## Task Description
 
 * Implement all generic methods of the class [GenericMethods.ArrayExtension](GenericMethods/ArrayExtension.cs#L10).
-* Implement the [GetIeee754Format.Transform](DoubleTransformer/GetIeee754Format.cs#L16) method that results a binary representation of a real double-precision number in IEEE 754 format. **Don't use Framework's converter classes**. 
-    For a more precise definition of the problem, see the [test cases](GenericMethods.Tests/NUnitTests/ArrayExtensionTests.cs#L12) and XML-comments for this method.        
-    Hint:  Use C# structs to create a union type (similar to C unions).     
-* Implement an [ContainsDigitPredicate.IsMatch](IntegerPredicate/ContainsDigitPredicate.cs#L25) method that checks if a given number contains a given digit. Don't use strings and arrays.      
-
-The detailed explanations of the task are provided in the XML-comments for the methods and in test cases of unit tests.
+* Implement the [GetIeee754Format.Transform](DoubleTransformer/GetIeee754Format.cs#L16) method that results a binary representation of a real double-precision number in IEEE 754 format. **Don't use Framework's converter classes**.     
+    _The detailed explanations of the task are provided in the XML-comments for the methods and in [test cases](GenericMethods.Tests/NUnitTests/ArrayExtensionTests.cs#L37) of unit tests_       
+    _Hint:  Use C# structs to create a union type (similar to C unions)._     
+* Implement an [ContainsDigitPredicate.IsMatch](IntegerPredicate/ContainsDigitPredicate.cs#L25) method that checks if a given number contains a given digit. **Don't use strings and arrays.**      
+_The detailed explanations of the task are provided in the XML-comments for the methods and in [test cases](GenericMethods.Tests/NUnitTests/ArrayExtensionTests.cs#L14) of unit tests._
 
 ## Additional Materials
 

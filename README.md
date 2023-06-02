@@ -12,13 +12,6 @@ _The detailed explanations of the task are provided in the XML-comments for the 
 * Implement the [StringByLengthComparer.Compare](Comparators/StringByLengthComparer.cs#L9) method to compare ompares two strings by length of the string. 
 
 ## Additional Materials
+- [IEEE 754](https://www.wikiwand.com/en/IEEE_754) 
+- [Math.Abs method](https://docs.microsoft.com/en-us/dotnet/api/system.math.abs) 
 
-Feel welcome to check out a set of supplementary articles from C# Programming Guide: 
-
-- [C# extension methods](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/extension-methods)  
-- [Math.Abs method](https://docs.microsoft.com/en-us/dotnet/api/system.math.abs?view=net-5.0) 
-
-### C# reference  
-
-* [ArgumentNullException class](https://docs.microsoft.com/en-us/dotnet/api/system.argumentnullexception?view=net-5.0#:~:text=An%20ArgumentNullException%20exception%20is%20thrown,but%20should%20never%20be%20null%20.&text=An%20object%20returned%20from%20a,original%20returned%20object%20is%20null%20.) 
-* [ArgumentException class](https://docs.microsoft.com/en-us/dotnet/api/system.argumentexception?view=net-5.0)
